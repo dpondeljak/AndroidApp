@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:id="@+id/txtLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:text="Prijava"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:ems="10"
+            android:hint="Unesite svoje korisničko ime"
+            android:inputType="textPersonName"
+            android:maxLength="24"
+            android:padding="10dp"
+            android:textSize="18sp"
+            android:theme="@style/AppTheme.EditTextStyle" />
+
+        <EditText
+            android:id="@+id/txtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:ems="10"
+            android:hint="Unesite svoju lozinku"
+            android:inputType="textPassword"
+            android:maxLength="16"
+            android:padding="10dp"
+            android:textSize="18sp"
+            android:theme="@style/AppTheme.EditTextStyle" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtPassword"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dip"
+            android:background="@color/colorLoginButton"
+            android:onClick="doLogin"
+            android:text="Prijava"
+            android:textColor="@color/colorLoginButtonText"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

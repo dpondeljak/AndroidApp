@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#283E51</color>
+    <color name="colorPrimaryDark">#4B79A1</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorDrawerItem">#7f7f7f</color>
+    <color name="colorDrawerIcon">#7f7f7f</color>
+    <color name="colorInputHint">#7f7f7f</color>
+    <color name="colorInputText">#283E51</color>
+    <color name="colorLoginButton">#283E51</color>
+    <color name="colorLoginButtonText">#dedada</color>
+</resources>
