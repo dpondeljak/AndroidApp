@@ -31,6 +31,10 @@
     <style name="AppTheme.NoActionBar.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="AppTheme.NoActionBar.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    
+    <style name="AppTheme.SplashScreen" parent="AppTheme.Fullscreen">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+    </style>
 
 
 </resources>
